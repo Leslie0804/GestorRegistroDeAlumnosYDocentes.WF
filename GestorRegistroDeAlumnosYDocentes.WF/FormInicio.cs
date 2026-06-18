@@ -37,12 +37,12 @@ namespace GestorRegistroDeAlumnosYDocentes.WF
             if (cmbRol.SelectedItem.ToString() == "Alumno")
             {
                 nuevaPersona = new Alumno(
-                    txtMatricula.Text,
-                    txtNombre.Text,
-                    txtCarrera.Text,
+                txtMatricula.Text,
+                txtNombre.Text,
+                txtCarrera.Text,
                     txtSemestre.Text,
-                    txtCorreo.Text
-                );
+                txtCorreo.Text
+            );
             }
             else
             {
